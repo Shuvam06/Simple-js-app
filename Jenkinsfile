@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                url 'https://github.com/Shuvam06/Simple-js-app'
+                git 'https://github.com/Shuvam06/Simple-js-app.git'
             }
         }
         stage('Build') {
